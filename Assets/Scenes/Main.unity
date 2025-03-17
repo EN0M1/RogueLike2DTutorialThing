@@ -266,8 +266,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1203296465}
   - component: {fileID: 1203296464}
+  - component: {fileID: 1203296466}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: BoardManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,6 +302,29 @@ Transform:
   - {fileID: 1505254616}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1203296466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203296463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70736cd3612b14080a56ea3b69abd9c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Width: 5
+  Height: 5
+  GroundTiles:
+  - {fileID: 11400000, guid: 7598bf3601a42409182e9f09fcf642cb, type: 2}
+  - {fileID: 11400000, guid: 0d6b75d29ddac43d3b77a6d0cbbd420a, type: 2}
+  - {fileID: 11400000, guid: add818946ba55491bb3921a89010ad00, type: 2}
+  - {fileID: 11400000, guid: 67e7969e21b364febab827a13378f160, type: 2}
+  - {fileID: 11400000, guid: 248d1cf8496214e9582309fb57c84b9b, type: 2}
+  - {fileID: 11400000, guid: a684c5dd00f344a348c9fb863c24847a, type: 2}
+  WallTiles:
+  - {fileID: 11400000, guid: a095da47c6ed9484b99dd3e2c7a81521, type: 2}
 --- !u!1 &1505254615
 GameObject:
   m_ObjectHideFlags: 0
