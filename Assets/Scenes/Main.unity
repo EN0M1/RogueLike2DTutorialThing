@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 1049758566}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 4, y: 4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -314,8 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70736cd3612b14080a56ea3b69abd9c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Width: 5
-  Height: 5
+  Width: 8
+  Height: 8
   GroundTiles:
   - {fileID: 11400000, guid: 7598bf3601a42409182e9f09fcf642cb, type: 2}
   - {fileID: 11400000, guid: 0d6b75d29ddac43d3b77a6d0cbbd420a, type: 2}
